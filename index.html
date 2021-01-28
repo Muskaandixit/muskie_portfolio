@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body bgcolor="pink">
+<img src="muskaan.png">
+<h2>MUSKAAN DIXIT</h2>
+<h3>I'm a 3rd year B.Tech Student studying at MRIIRS. I am pursuing B.Tech in Computer Science with specialisation in Buisiness Analytics and Optimization. I live in Faridabad. I love dancing, reading books, listening to songs</h3>
+
+<div class="row">
+  <div class="column" style="background-color:orange;">
+    <h2>EDUCATION</h2>
+    <p>Bachelor of Technology (B.Tech), Computer Science & Engineering
+	Manav Rachna International Institute Of Research And Studies<br>
+	2018 - 2022<br>
+	CGPA: 8.40/10<br><br>
+ 
+	Senior Secondary (XII), Science
+	Dav Public School Sec 14 Faridabad
+	((CBSE BOARD BOARD) board)<br>
+	Year of completion: 2017<br>
+	Percentage: 80.00%<br><br>
+ 
+	Secondary (X)<br>
+	CBSE board<br><br>
+	Year of completion: 2015<br>
+	CGPA: 9.40/10<br></p>
+  </div>
+  <div class="column" style="background-color:GREY;">
+    <h2>COURSES</h2>
+    <p>TRAININGS/ COURSES
+ 
+Neural Networks And Deep Learning<br>
+Deeplearning.AI - Courseera, Online<br>
+Jan 2021 - Present<br><br>
+ 
+AI For Everyone<br>
+Deeplearning.AI - Courseera, Online<br>
+Jul 2020 - Aug 2020<br><br>
+ 
+Python Data Structures<br>
+University Of Michigan -Courseera, Online<br>
+Jul 2020 - Aug 2020<br><br>
+ 
+Python For Everyone<br>
+University Of Michigan - Courseera, Online<br>
+May 2020 - Jul 2020<br>
+Learnt about python basics.<br><br></p>
+  </div>
+  <div class="column" style="background-color:GREEN;">
+    <h2>ACHIEVEMENTS</h2>
+    <p>Image classification using convolutional nural networks.
+Jul 2020 - Nov 2020
+In this paper of mine I have worked on deep learning, neural networks and convolutional networks on how they work .how filters work and have explained different layers of neural networks talked about in depth classification of images.<br>
+ 
+<br><br>feature selection using ensemble techniques
+Jan 2020 - Jun 2020
+I am author of the paper titled feature selection using emsemble techniques. In the paper I have told about the importance of feature selection in machine learning and compare 2 algos in a data set and predicted which one is better.</p>
+  </div>
+</div>
+
+</body>
+</html>
